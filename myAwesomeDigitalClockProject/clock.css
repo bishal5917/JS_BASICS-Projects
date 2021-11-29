@@ -1,0 +1,13 @@
+#time{
+    border:2px solid red;
+    /* margin:10px 10px; */
+    display: inline;
+    position: absolute;
+    left:30%;
+    top:30%;
+    padding: 30px 20px;
+    margin:auto;
+    font-size: 3em;
+    color:rgb(21, 99, 216);
+    /* background-color: darkcyan; */
+}

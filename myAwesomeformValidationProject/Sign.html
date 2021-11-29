@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeSum.io/Signup</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+    <div id="msgToUser"></div>
+
+    <div class="box">
+        <h2 id="head">Login</h2>
+        <!-- <hr> -->
+        <form>
+        <input type="email" name="email" id="email" placeholder="Email">
+        <div id="emailcheck"></div>
+        <input type="password" name="password" id="pass" placeholder="Password" >
+        <div id="passcheck"></div>
+        <input type="checkbox" id="pos" onclick="myFunction()">
+        <input type="submit" id="sub" class="btn" value="Submit">
+        </form>
+       <p id="para"> Forgot Password ? </p>
+       <hr id="hr">
+        <input type="button" class="btn1" value="Create New Account">
+    </div>
+     
+    <div class="topic">
+        <h1 class="sum">CodeSum</h1>
+        <hr>
+        <p id="parax">The ultimate resource to learn coding. 
+            Everything you need, in one streamlined platform.</p>
+    </div>
+</body>
+<script>
+    function myFunction() {
+        var p = document.getElementById("pass");
+        if (p.type == "password") {
+          p.type = "text";
+        } else {
+          p.type = "password";
+        }
+      }
+</script>
+<script src="formValidation.js"></script>
+</html>

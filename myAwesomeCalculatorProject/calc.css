@@ -1,0 +1,57 @@
+Button{
+    background-color: rgb(0, 153, 255);
+    width:100px;
+    height:30px;
+    font-size: 20px;
+    border: 2px solid rgb(15, 17, 156);
+    border-radius: 5px;
+    /* padding: 10px 10px; */
+}
+Button:hover{
+    opacity: 80%;
+    /* background-color: rgb(22, 229, 236); */
+}
+.calclass{
+    background-color: antiquewhite;
+}
+.container{
+     text-align: center;
+}
+#tableid{
+    position: absolute;
+    left:34%;
+    margin:10px 10px;
+    background-color: rgb(0, 94, 5);
+}
+.heads{
+    text-align: center;
+    font: 2rem;
+    color: rgb(18, 97, 201);
+    font-weight: bold;
+    font-family: cursive;
+}
+#numsenter{
+    border: 2px solid rgb(131, 15, 226);
+    height:30px;
+    width:400px;
+    border-radius: 5px;
+}
+.maths{
+    font-size: 15px;
+    background-color: rgb(40, 18, 168);
+}
+.digits{
+    background-color: rgb(0, 61, 141);
+}
+#reset{
+    background-color: rgb(109, 12, 49);
+}
+.operators{
+    background-color: rgb(0, 119, 0);
+}
+#ans{
+    background-color: rgb(0, 17, 255);
+}
+.paran{
+    background-color: rgb(36, 0, 0);
+}

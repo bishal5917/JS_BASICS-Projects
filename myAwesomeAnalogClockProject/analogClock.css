@@ -1,0 +1,66 @@
+.maincontainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+}
+#imgclock{
+    margin:auto;
+    /* border:2px solid red; */
+    border-radius: 3000px;
+ 
+}
+body{
+    background-color: black
+}
+.centerdot {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(67, 170, 26);
+    border-radius: 50%;
+    /* margin: auto; */
+    position: absolute;
+    right:49%;
+  }
+#hourhand{
+    transform-origin: bottom;
+    height:140px;
+    width:7px;
+    color: brown;
+    /* border:2px solid red; */
+    background-color: rgb(212, 18, 18);
+    position: absolute;
+    left:49.9%;
+    top:23%;
+    margin: auto;
+    /* border-radius:10px; */
+    /* display: none; */
+}
+#minhand{
+    transform-origin: bottom;
+    height:140px;
+    width:5px;
+    color: brown;
+    /* border:2px solid red; */
+    background-color: rgb(201, 198, 162);
+    position: absolute;
+    left:50%;
+    top:23%;
+    margin:auto;
+    /* display: none; */
+
+}
+#sechand{
+    transform-origin: bottom;
+    height:175px;
+    width:3px;
+    color: brown;
+    /* border:2px solid red; */
+    background-color: rgb(8, 163, 235);
+    position: absolute;
+    left:50.05%;
+    top:15%;
+    margin:auto;
+    /* display: none; */
+}
